@@ -26,3 +26,4 @@ Check it out here 👉 *[Add your deployed link]*
 - **Vite** (for fast development build)
 
 ---
+*Note* Requires some modifications .
