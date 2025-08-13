@@ -2,7 +2,10 @@
 
 A modern, responsive portfolio built with **React** and **Tailwind CSS** to showcase my skills, projects, and contact information.  
 Smooth animations and a clean design make it easy for visitors to navigate and connect.
-[Live Demo](https://my-portfoliov01.vercel.app/)
+---
+## Live Demo
+
+[Live Demo](https://haseebkhan-portfolio.vercel.app/)
 
 ---
 
