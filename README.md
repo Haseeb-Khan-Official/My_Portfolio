@@ -4,14 +4,14 @@ A modern, responsive portfolio built with **React** and **Tailwind CSS** to show
 Smooth animations and a clean design make it easy for visitors to navigate and connect.
 
 ## 🌐 Live Demo
-Check it out here 👉 *[Add your deployed link]*
+Check it out here 👉 [https://my-portfoliov01.vercel.app/]
 
 ---
 
 ## 🚀 Features
 - **Responsive design** for desktop and mobile
 - **Smooth scroll** navigation between sections
-- **Animated reveals** using custom `RevealOnScroll` component
+- **Animated reveals** using custom component
 - **Projects showcase** with tech stack badges
 - **Contact form** with EmailJS integration
 - **Gradient text and hover effects** for a modern look
