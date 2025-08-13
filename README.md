@@ -4,7 +4,7 @@ A modern, responsive portfolio built with **React** and **Tailwind CSS** to show
 Smooth animations and a clean design make it easy for visitors to navigate and connect.
 
 ## 🌐 Live Demo
-Check it out here 👉 [https://my-portfoliov01.vercel.app/]
+[Live Demo](https://my-portfoliov01.vercel.app/)
 
 ---
 
