@@ -9,6 +9,58 @@ body {
   color: #f3f4f6;
   scroll-behavior: smooth;
 }
+/* ===== Scrollbar Styling ===== */
+
+/* Scrollbar width & height */
+::-webkit-scrollbar {
+  width: 12px;  /* vertical scrollbar thickness */
+  height: 12px; /* horizontal scrollbar thickness */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: rgba(37,37,37,0.52); /* gray-400 semi-transparent */
+  border-radius: 6px;
+}
+
+/* Scrollbar thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  border: 1px solid rgba(10,10,10,0.5); /* subtle border */
+  
+  /* Glassy gradient */
+  background: linear-gradient(
+    180deg,
+    rgba(59,130,246,0.8),   /* blue-500 */
+    rgba(14,165,233,0.8)    /* cyan-400 */
+  );
+  
+  backdrop-filter: blur(4px); /* frosted glass effect */
+}
+
+/* Scrollbar thumb hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(14,165,233,0.9),   /* cyan-400 */
+    rgba(59,130,246,0.9)    /* blue-500 */
+  );
+}
+
+/* Scrollbar thumb active (dragged) */
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(
+    180deg,
+    rgba(14,165,233,1),     /* cyan-400 full */
+    rgba(59,130,246,1)      /* blue-500 full */
+  );
+}
+
+/* Optional: Scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: rgba(37,37,37,0.52); /* match track */
+  border-radius: 6px;
+}
 
 @layer utilities {
   @keyframes blink {
