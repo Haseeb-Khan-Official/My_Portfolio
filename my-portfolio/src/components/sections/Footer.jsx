@@ -35,7 +35,7 @@ function Footer() {
               className="bg-gray-500 text-gray-900 rounded-full p-3 hover:shadow-lg hover:text-pink-500 transition duration-300"
               target="_blank"
               title="Connect with me on Instagram"
-              href="https://instagram.com/alone_____walkerr?igshid=ZGUzMzM3NWJiOQ=="
+              href="https://www.instagram.com/oroph1l3?igsh=a21kdjB2emZhdWcw&utm_source=qr"
             >
               <i className="fab fa-instagram"></i>
             </a>
