@@ -2,7 +2,8 @@ import RevealOnScroll from "../RevealOnScroll";
 import ProfilePic from "../../assets/ProfilePic.png"; // if inside src/assets
 import { Typewriter } from "react-simple-typewriter";
 
-function Home() {
+function Home(){
+
   return (
     <section
       id="home"
@@ -34,21 +35,20 @@ function Home() {
 
             {/* TYPEWRITER EFFECT TO BE ADDED HERE */}
             <div className="h-[14vh] w-[33vw]  mb-4 flex justify-self-center items-center justify-center text-gray-400 text-2xl text-left border border-white/10 rounded-lg glow-text ">
-              {/* <div > TYPEWRITER EFFECT TO BE ADDED HERE </div> */}
               <Typewriter
                 words={[
                   "Software Engineer",
                   "Frontend Web Developer",
-                  "HTML • CSS • JavaScript",
-                  "React • Vite • TailwindCSS",
-                  "Python • C++",
+                  "HTML - CSS - JavaScript",
+                  "React - Vite - TailwindCSS",
+                  "Python - C++",
                 ]}
-                loop={0} // 0 = infinite loop
+                loop={true}
                 cursor
-                cursorStyle="|" // simple pipe cursor
-                typeSpeed={80} // slower typing
-                deleteSpeed={40} // slower deleting (optional)
-                delaySpeed={1500}
+                cursorStyle="|"
+                typeSpeed={80}
+                deleteSpeed={40}
+                delaySpeed={2000}
               />
             </div>
 
