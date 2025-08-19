@@ -33,21 +33,21 @@ function Home() {
             </p>
 
             {/* TYPEWRITER EFFECT TO BE ADDED HERE */}
-            <div className="h-[14vh] w-[33vw]  mb-4 flex justify-self-center items-center justify-center text-gray-400 text-2xl  border border-white/10 rounded-lg glow-text ">
+            <div className="h-[14vh] w-[33vw]  mb-4 flex justify-self-center items-center justify-center text-gray-400 text-2xl text-left border border-white/10 rounded-lg glow-text ">
               {/* <div > TYPEWRITER EFFECT TO BE ADDED HERE </div> */}
               <Typewriter
                 words={[
-                  "Software Engineering Graduate",
-                  "Python • C++",
+                  "Software Engineer",
                   "Frontend Web Developer",
                   "HTML • CSS • JavaScript",
                   "React • Vite • TailwindCSS",
+                  "Python • C++",
                 ]}
-                loop={true}
+                loop={0} // 0 = infinite loop
                 cursor
-                cursorStyle="|"
-                typeSpeed={60}
-                deleteSpeed={40}
+                cursorStyle="|" // simple pipe cursor
+                typeSpeed={80} // slower typing
+                deleteSpeed={40} // slower deleting (optional)
                 delaySpeed={1500}
               />
             </div>

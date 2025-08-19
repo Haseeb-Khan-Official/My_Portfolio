@@ -1,15 +1,26 @@
 import RevealOnScroll from "../RevealOnScroll";
 
 function About() {
-  const frontendSkills = ["HTML", "CSS", "Tailwind", "JavaScript", "React"];
+  const frontendSkills = [
+    "HTML",
+    "CSS",
+    "Tailwind",
+    "JavaScript",
+    "ReactJS",
+    "Vite",
+  ];
 
   const otherSkills = [
-    "Python",
-    "API Integration (Basic) like Flask API",
-    "Jupyter Notebook",
     "VS Code",
-    "Vite",
+    "Python",
+    "Flask API",
+    "Jupyter Notebook",
+    "SQL",
     "Git/GitHub",
+    "Problem-solving",
+    "Fast learner",
+    "Communication",
+    "Team collaboration",
   ];
 
   return (
@@ -22,11 +33,12 @@ function About() {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             About Me
           </h2>
-          <div className="tracking-wider rounded-xl p-8 border-white/10 border ">
+          <div className="tracking-wider text-center rounded-xl p-8 border-white/10 border ">
             <p className="text-gray-300 mb-6 ">
-              Junior web developer turning ideas into projects, learning new
-              tools, and improving skills daily. Currently focusing on frontend
-              and modern frameworks while working toward full-stack knowledge.
+              Junior web developer turning ideas into real projects, exploring
+              new tools, and improving skills every day. Currently focusing on
+              frontend development with modern frameworks, while steadily
+              working toward full-stack expertise.
             </p>
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 ">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -62,23 +74,27 @@ function About() {
             </div>
           </div>
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            {/* Educaton */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               {/* To add an emoji press Win + . (if on Windows) */}
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-none list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> B.S in Software Engineering </strong> - University of
                   Malakand, KPK, Pakistan (2020-2024)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Developement, ML and
-                  AI, DBMS...
+                  <strong>Relevant Coursework</strong> - Data Structures, Web
+                  Developement, ML and AI, DBMS...
                 </li>
               </ul>
             </div>
+            {/* Experience and Certifications */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               {/* To add an emoji press Win + . (if on Windows) */}
-              <h3 className="text-xl font-bold mb-4">🏫 Work Experience</h3>
+              <h3 className="text-xl font-bold mb-4">
+                💼 Experience & Certifications
+              </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4>
@@ -86,6 +102,22 @@ function About() {
                     real-world experience. Actively building personal projects
                     to grow in frontend development.
                   </h4>
+                </div>
+                {/* Certificates */}
+                <div className="py-2 border border-white/10 rounded-lg p-3">
+                  <p className="text-xl text-white font-semibold mb-4">📜 Certification</p>
+                  <p className="text-gray-300 font-semibold mb-3">
+                    Cisco Programming Essentials in Python – Cisco Networking
+                    Academy (2024)
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1FPNhDOwihd5xAe-hZFUBjkBmMP4hOl5R/view?usp=sharing"
+                    title="CISCO_Programming_Essentials_in_Python_certificate"
+                    target="_blank"
+                    className=" text-gray-300 text-sm hover:text-gray-400 transition-colors cursor-pointer"
+                  >
+                    View Certificate →
+                  </a>
                 </div>
               </div>
             </div>
