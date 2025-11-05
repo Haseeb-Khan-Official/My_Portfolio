@@ -98,9 +98,9 @@ function About() {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4>
-                    Seeking junior frontend roles to apply skills and gain
+                    Seeking junior frontend/full-stack roles to apply skills and gain
                     real-world experience. Actively building personal projects
-                    to grow in frontend development.
+                    to grow in full-stack development.
                   </h4>
                 </div>
                 {/* Certificates */}
