@@ -1,13 +1,17 @@
 import RevealOnScroll from "../RevealOnScroll";
 
 function About() {
-  const frontendSkills = [
+  const FullStack = [
     "HTML",
     "CSS",
     "Tailwind",
     "JavaScript",
+    "TypeScript",
     "ReactJS",
     "Vite",
+    "MongoDB",
+    "ExpressJS",
+    "NodeJS",
   ];
 
   const otherSkills = [
@@ -15,12 +19,8 @@ function About() {
     "Python",
     "Flask API",
     "Jupyter Notebook",
-    "SQL",
     "Git/GitHub",
-    "Problem-solving",
-    "Fast learner",
-    "Communication",
-    "Team collaboration",
+    "SQL",
   ];
 
   return (
@@ -44,7 +44,7 @@ function About() {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">FrontEnd</h3>
                 <div className="flex flex-wrap gap-2 ">
-                  {frontendSkills.map((tech, key) => (
+                  {FullStack.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 p-3 rounded-full text-sm hover:bg-blue-500/20
@@ -105,7 +105,9 @@ function About() {
                 </div>
                 {/* Certificates */}
                 <div className="py-2 border border-white/10 rounded-lg p-3">
-                  <p className="text-xl text-white font-semibold mb-4">📜 Certification</p>
+                  <p className="text-xl text-white font-semibold mb-4">
+                    📜 Certification
+                  </p>
                   <p className="text-gray-300 font-semibold mb-3">
                     Cisco Programming Essentials in Python – Cisco Networking
                     Academy (2024)

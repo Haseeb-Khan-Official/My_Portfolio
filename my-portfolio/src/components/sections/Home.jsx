@@ -2,8 +2,7 @@ import RevealOnScroll from "../RevealOnScroll";
 import ProfilePic from "../../assets/ProfilePic.png"; // if inside src/assets
 import { Typewriter } from "react-simple-typewriter";
 
-function Home(){
-
+function Home() {
   return (
     <section
       id="home"
@@ -29,8 +28,9 @@ function Home(){
               Hi, I am Haseeb Khan
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto tracking-wider">
-              I'm a front-end web developer who makes clean and useful websites.
-              Still exploring, still learning, and enjoying the journey.
+              I’m a junior full stack developer working with the MERN stack. I
+              build both frontend and backend with a focus on clean code and
+              useful features. Still learning and improving every day.
             </p>
 
             {/* TYPEWRITER EFFECT TO BE ADDED HERE */}
@@ -38,9 +38,11 @@ function Home(){
               <Typewriter
                 words={[
                   "Software Engineer",
-                  "Frontend Web Developer",
-                  "HTML - CSS - JavaScript",
-                  "React - Vite - TailwindCSS",
+                  "Full Stack Web Developer",
+                  "HTML - CSS",
+                  "JavaScript - ReactJS",
+                  "Vite - TailwindCSS - TypeScript",
+                  "MongoDB - NodeJS - ExpressJS",
                   "Python - C++",
                 ]}
                 loop={true}
