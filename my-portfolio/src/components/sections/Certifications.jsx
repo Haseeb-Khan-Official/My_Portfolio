@@ -431,14 +431,14 @@ function Certifications() {
           </h2>
 
           {/* Work Experience Card */}
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+          <div className="p-6 rounded-xl bg-black/20 border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <div className="space-y-6">
               <h3 className="text-xl font-bold flex items-center gap-2 text-white">
                 Work Experience
               </h3>
 
               {/* Experience Block */}
-              <div className="p-6 rounded-lg border border-white/10 space-y-6">
+              <div className="p-6 rounded-lg border bg-black/20 border-white/10 space-y-6">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between border-b border-white/10 pb-4 gap-2">
                   <div>
                     <h4 className="text-lg font-bold text-white">

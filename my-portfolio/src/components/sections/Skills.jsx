@@ -111,7 +111,7 @@ function Skills() {
             Skills & Tech Stack
           </h2>
 
-          <div className="relative w-full overflow-hidden rounded-xl border border-white/10 bg-slate-900/40 p-6 backdrop-blur-sm space-y-6">
+          <div className="relative w-full overflow-hidden rounded-xl border border-white/10 bg-black/20 p-6 backdrop-blur-sm space-y-6">
             {/* Left and Right Fade Overlays */}
             <div className="absolute top-0 bottom-0 left-0 w-16 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none" />
             <div className="absolute top-0 bottom-0 right-0 w-16 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none" />

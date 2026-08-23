@@ -35,7 +35,7 @@ function About() {
           </h2>
 
           {/* Bio Box */}
-          <div className="tracking-wider text-center rounded-xl p-8 border border-white/10 bg-slate-900/30 backdrop-blur-sm mb-6">
+          <div className="tracking-wider text-center rounded-xl p-8 border border-white/10 bg-black/20 hover:-translate-y-1 hover:border-blue-500/30 transition-all backdrop-blur-sm mb-6">
             <p className="text-gray-300 leading-relaxed max-w-2xl mx-auto">
               Software Engineer building functional, scalable web platforms.
               Combining full-stack development (React, Node.js, PHP, MySQL) with
@@ -46,7 +46,7 @@ function About() {
           </div>
 
           {/* Education Section */}
-          <div className="p-6 sm:p-8 rounded-xl border border-white/10 bg-slate-800/30 hover:-translate-y-1 hover:border-blue-500/30 transition-all">
+          <div className="p-6 sm:p-8 rounded-xl border border-white/10 bg-black/20 hover:-translate-y-1 hover:border-blue-500/30 transition-all">
             <h3 className="text-xl font-bold mb-6 text-white flex items-center gap-2 border-b border-white/10 pb-3">
               Education
             </h3>

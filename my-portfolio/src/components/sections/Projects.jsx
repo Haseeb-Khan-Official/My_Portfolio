@@ -47,7 +47,7 @@ function Projects() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Project 1: Fuel Price Prediction */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
+            <div className="p-6 rounded-xl border border-white/10 bg-black/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold mb-2">
                   Fuel Price Prediction Model
@@ -83,7 +83,7 @@ function Projects() {
             </div>
 
             {/* Project 2: Conference Webpage */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 bg-black/20 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold mb-2">
                   Conference Webpage Design
@@ -119,7 +119,7 @@ function Projects() {
             </div>
 
             {/* Project 3: Portfolio Website */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
+            <div className="p-6 rounded-xl border border-white/10 bg-black/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
                 <p className="text-gray-400 mb-4">
@@ -147,7 +147,7 @@ function Projects() {
             </div>
 
             {/* Project 4: PEDO HydroNet (Includes custom alert trigger) */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
+            <div className="p-6 rounded-xl border border-white/10 bg-black/20 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-bold mb-2">PEDO HydroNet</h3>
                 <p className="text-gray-400 mb-4">
