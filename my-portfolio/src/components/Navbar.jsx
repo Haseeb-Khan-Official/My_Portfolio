@@ -11,7 +11,14 @@ function Navbar({ menuOpen, setMenuOpen }) {
   // Track scroll to highlight active section
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "project", "contact"];
+      const sections = [
+        "home",
+        "about",
+        "skill",
+        "project",
+        "certification",
+        "contact",
+      ];
       let current = "home";
 
       sections.forEach((id) => {
@@ -60,7 +67,14 @@ function Navbar({ menuOpen, setMenuOpen }) {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {["home", "about", "project", "contact"].map((id) => (
+            {[
+              "home",
+              "about",
+              "skill",
+              "project",
+              "certification",
+              "contact",
+            ].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}

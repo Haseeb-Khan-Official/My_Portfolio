@@ -24,26 +24,31 @@ function Home() {
           {/* RIGHT SIDE */}
           {/* bg-amber-200 */}
           <div className="text-center z-10 px-4 ">
+            <div className="mb-3 px-3 py-1 rounded bg-gray-900/40 border border-white/10 text-gray-400 text-lg   inline-flex items-center gap-2 sm:text-sm tracking-wide">
+              PEC Registered Engineer
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 bg-[length:300%_auto] bg-clip-text text-transparent animate-[gradientMove_10s_linear_infinite] tracking-tight ">
               Hi, I am Haseeb Khan
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto tracking-wider">
-              I’m a junior full stack developer working with the MERN stack. I
-              build both frontend and backend with a focus on clean code and
-              useful features. Still learning and improving every day.
+              A full stack developer working with the MERN stack. I build both
+              frontend and backend with a focus on clean code and useful
+              features. Still learning and improving every day.
             </p>
 
             {/* TYPEWRITER EFFECT TO BE ADDED HERE */}
             <div className="h-[14vh] w-[33vw]  mb-4 flex justify-self-center items-center justify-center text-gray-400 text-2xl text-left border border-white/10 rounded-lg glow-text ">
               <Typewriter
                 words={[
+                  "PEC Registered Engineer",
                   "Software Engineer",
                   "Full Stack Web Developer",
                   "HTML - CSS",
-                  "JavaScript - ReactJS",
-                  "Vite - TailwindCSS - TypeScript",
-                  "MongoDB - NodeJS - ExpressJS",
-                  "Python - C++",
+                  "JavaScript - ReactJS - TypeScript",
+                  "Vite - TailwindCSS - BootStrap ",
+                  "NodeJS - ExpressJS",
+                  "MongoDB - MySQL",
+                  "Python - C++ - PHP",
                 ]}
                 loop={true}
                 cursor

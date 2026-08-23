@@ -16,12 +16,12 @@ function Footer() {
               <i className="fab fa-github"></i>
             </a>
             <a
-              className="bg-gray-500 text-gray-900 rounded-full p-3 hover:shadow-lg hover:text-blue-600 transition duration-300"
+              className="bg-gray-500 text-gray-900 rounded-full p-3 hover:shadow-lg hover:text-red-400 transition duration-300"
               target="_blank"
-              title="Connect with me on Facebook"
-              href="https://www.facebook.com/hasib.ahk.7"
+              title="send Email @ haseebkh577221@gmail.com"
+              href="mailto:haseebkh577221@gmail.com"
             >
-              <i className="fab fa-facebook-f"></i>
+              <i className="fas fa-envelope"></i>
             </a>
             <a
               className="bg-gray-500 text-gray-900 rounded-full p-3 hover:shadow-lg hover:text-blue-600 transition duration-300"
@@ -42,19 +42,28 @@ function Footer() {
           </div>
 
           {/* Footer Links */}
-          <div className="flex justify-center mb-4 space-x-6 text-sm">
-            <a className="hover:underline" href="#">
-              Privacy
+          <div className="flex flex-wrap justify-center mb-4 space-x-6 text-sm text-gray-300">
+            <a href="#about" className="hover:underline ">
+              About
             </a>
-            <a className="hover:underline" href="#">
-              Terms
+            <a href="#skills" className="hover:underline ">
+              Skills
             </a>
-            <a className="hover:underline" href="#">
-              FAQs
+            <a href="#projects" className="hover:underline ">
+              Projects
             </a>
-            <a className="hover:underline" href="#">
-              Help
+            <a href="#contact" className="hover:underline">
+              Contact
             </a>
+            {/* Resume to be added soon */}
+            {/* <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-cyan-400 hover:underline font-semibold"
+  >
+    Resume PDF ↗
+  </a> */}
           </div>
 
           {/* Copyright */}
@@ -65,6 +74,8 @@ function Footer() {
             All Rights Reserved. Designed by{" "}
             <a
               className="font-semibold hover:font-bold  text-gray-300"
+              target="_blank"
+              title="My Portfolio"
               href="https://haseebkhan-portfolio.vercel.app/"
             >
               Haseeb Khan
