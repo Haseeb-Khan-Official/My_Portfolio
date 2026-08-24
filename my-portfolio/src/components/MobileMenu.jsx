@@ -47,7 +47,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
         About
       </a>
       <a
-        href="#projects"
+        href="#skill"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4  transform transition-transform duration-300
               ${
@@ -58,7 +58,35 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
         
         `}
       >
-        Projects
+        Skill
+      </a>
+      <a
+        href="#project"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-white my-4  transform transition-transform duration-300
+              ${
+                menuOpen
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-5"
+              }
+        
+        `}
+      >
+        Project
+      </a>
+      <a
+        href="#certification"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-white my-4  transform transition-transform duration-300
+              ${
+                menuOpen
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-5"
+              }
+        
+        `}
+      >
+        Certification
       </a>
       <a
         href="#contact"

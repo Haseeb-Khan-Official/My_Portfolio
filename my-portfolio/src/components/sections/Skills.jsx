@@ -95,6 +95,31 @@ function Skills() {
       name: "VS Code",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
     },
+    {
+      name: "Axios",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg",
+    },
+
+    // Add to Row 2 (AI, Data Science & Backend Tools)
+    {
+      name: "Jupyter",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
+    },
+    {
+      name: "NumPy",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+    },
+    {
+      name: "Postman",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+    },
+    {
+      // name: "XAMPP",
+      // icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xampp/xampp-original.svg",
+
+      name: "XAMPP",
+      icon: "https://cdn.simpleicons.org/xampp/FB7A24",
+    },
   ];
 
   const marqueeRow1 = [...row1, ...row1];
