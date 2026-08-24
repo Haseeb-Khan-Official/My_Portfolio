@@ -2,9 +2,9 @@ import RevealOnScroll from "../RevealOnScroll";
 
 function Footer() {
   return (
-    <section className="bg-gradient-to-b from-[#0a0a0a] to-white/10 text-gray-400 mt-20 py-16 px-4 md:px-16 border-t  border-gray-900">
+    <section className=" bg-gradient-to-b from-[#0a0a0a] to-white/10 text-gray-400 mt-20 py-16 px-4 md:px-16 border-t  border-gray-900">
       <RevealOnScroll>
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-7xl mx-auto text-center ">
           {/* Social Links */}
           <div className="flex justify-center mb-6 space-x-4">
             <a
@@ -68,7 +68,7 @@ function Footer() {
 
           {/* Copyright */}
 
-          <p className="text-sm">
+          <p className="text-sm ">
             &copy;{" "}
             <span className="font-semibold text-gray-300">Haseeb Khan</span>.
             All Rights Reserved. Designed by{" "}

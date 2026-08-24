@@ -132,7 +132,7 @@ function Skills() {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4 w-full">
-          <h2 className="text-3xl font-bold mb-10 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="heading text-3xl font-bold mb-10 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Skills & Tech Stack
           </h2>
 

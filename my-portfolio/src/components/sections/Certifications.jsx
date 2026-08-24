@@ -31,8 +31,7 @@ function Certifications() {
         "Graduate Engineer Trainee (GET) - 6-Month Professional Experience",
       issuer: "Pakistan Engineering Council (PEC)",
       date: "2026",
-      image:
-        getPec,
+      image: getPec,
       credentialUrl:
         "https://drive.google.com/file/d/1udEt1U9NWWNOhnBXMwTw1l1HA8ifL0xE/view?usp=drive_link",
       tags: ["PEC", "GET Program", "Engineering"],
@@ -104,7 +103,7 @@ function Certifications() {
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4 space-y-12">
           {/* Section Header */}
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="heading text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Experience and Certifications
           </h2>
 

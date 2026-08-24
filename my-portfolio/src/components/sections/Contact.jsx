@@ -17,7 +17,7 @@ function Contact() {
         import.meta.env.VITE_serviceID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then((result) => {
         alert("Message Sent");
@@ -35,7 +35,7 @@ function Contact() {
       <div className="w-full max-w-xl mx-auto">
         <RevealOnScroll>
           <div className="w-full px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            <h2 className="heading text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
               Get In Touch
             </h2>
             <form className="space-y-6" onSubmit={handleSubmit}>

@@ -1,44 +1,44 @@
-@import "tailwindcss";
+/* Fixed @import syntax (removed markdown links) */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
+@import "tailwindcss";
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
+
   background: #0a0a0a;
   color: #f3f4f6;
   scroll-behavior: smooth;
 }
-/* =| Scrollbar Styling |= */
 
-/* Scrollbar width & height */
+/* ==========================================================================
+   SCROLLBAR STYLING
+   ========================================================================== */
+
 ::-webkit-scrollbar {
-  width: 12px; /* vertical scrollbar thickness */
-  height: 12px; /* horizontal scrollbar thickness */
+  width: 12px;
+  height: 12px;
 }
 
-/* Scrollbar track */
 ::-webkit-scrollbar-track {
   background: rgba(37, 37, 37, 0.52);
   border-radius: 6px;
 }
 
-/* Scrollbar thumb (draggable part) */
 ::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 1px solid rgba(10, 10, 10, 0.5);
-
-  /* Glassy gradient */
   background: linear-gradient(
     180deg,
     rgba(59, 130, 246, 0.8),
     rgba(14, 165, 233, 0.8)
   );
-
   backdrop-filter: blur(4px);
 }
 
-/* Scrollbar thumb hover */
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(
     180deg,
@@ -47,7 +47,6 @@ body {
   );
 }
 
-/* Scrollbar thumb active (dragged) */
 ::-webkit-scrollbar-thumb:active {
   background: linear-gradient(
     180deg,
@@ -56,11 +55,20 @@ body {
   );
 }
 
-/* Optional: Scrollbar corner */
 ::-webkit-scrollbar-corner {
   background: rgba(37, 37, 37, 0.52);
   border-radius: 6px;
 }
+
+/* HOME */
+.home_heading,
+.heading {
+  /* font-family: "Outfit", sans-serif; */
+  font-family: "Red Hat Display";
+}
+/* ==========================================================================
+   ANIMATIONS & UTILITIES
+   ========================================================================== */
 
 @layer utilities {
   @keyframes blink {
@@ -91,12 +99,6 @@ body {
   }
 
   @keyframes gradientMove {
-    /* 0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    } */
     0% {
       background-position: 0% 50%;
     }
@@ -119,37 +121,15 @@ body {
   transform: translateY(0);
 }
 
-/* TEXT SHADOW FOR THE TYPWRITER  */
 .glow-text {
   text-shadow:
     1px 1px 1px #434040,
-    /* highlight */ 1px 1px 1px #ccc,
-    /* mid layer */ 1px 1px 1px #999,
-    /* deeper shadow */ 1px 1px 1px #666; /* deepest shadow */
-
-  /* box-shadow: 0 0px 10px rgba(186, 184, 184, 0.3); */
+    1px 1px 1px #ccc,
+    1px 1px 1px #999,
+    1px 1px 1px #666;
 }
 
-/* Skills Section Animation */
-/* 
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-marquee {
-  animation: marquee 45s linear infinite;
-}
-
-/* Reliable pause on hover */
-/* .animate-marquee:hover {
-  animation-play-state: paused;
-} */
-/* Right-to-Left (First Row) */
+/* Marquee Animations */
 @keyframes marquee-left {
   0% {
     transform: translateX(0%);
@@ -163,7 +143,6 @@ body {
   animation: marquee-left 40s linear infinite;
 }
 
-/* Left-to-Right (Second Row) */
 @keyframes marquee-right {
   0% {
     transform: translateX(-50%);
@@ -177,13 +156,10 @@ body {
   animation: marquee-right 40s linear infinite;
 }
 
-/* Hover Pause for both rows */
 .animate-marquee-left:hover,
 .animate-marquee-right:hover {
   animation-play-state: paused;
 }
-
-/* For Tech stack in project section cards */
 
 @keyframes marquee {
   0% {
@@ -198,20 +174,9 @@ body {
   animation: marquee 12s linear infinite;
 }
 
-
-/* For homepage enhancement and TextMarquee effect */
-@keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
-}
-
-@keyframes marqueeReverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0%); }
-}
-
 @keyframes blobMorph {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
   50% {

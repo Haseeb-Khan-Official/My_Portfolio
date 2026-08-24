@@ -39,7 +39,7 @@ function Home() {
             <div className="mb-3 px-3 py-1 rounded bg-gray-900/40 border border-white/10 text-gray-400 text-lg inline-flex items-center gap-2 sm:text-sm tracking-wide">
               PEC Registered Engineer
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 bg-[length:300%_auto] bg-clip-text text-transparent animate-[gradientMove_10s_linear_infinite] tracking-tight">
+            <h1 className="home_heading text-4xl sm:text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 bg-[length:300%_auto] bg-clip-text text-transparent animate-[gradientMove_10s_linear_infinite] tracking-tight">
               Hi, I am Haseeb Khan
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto tracking-wider">
